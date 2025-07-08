@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="actividad15.js"></script>
+    <title>Exercici</title>
+</head>
+<body>
+    <h3>En esta actividad, aprenderás a capturar los datos de un formulario y mostrarlos en la misma página.</h3>
+    <h3>Crea un archivo HTML con un formulario que contiene un campo de texto y un botón de envío.</h3>
+    <h3>Usa JavaScript para mostrar los datos ingresados en el campo de texto en un nuevo párrafo al hacer clic en el botón de envío.</h3>
+
+    <!-- Formulario con un campo de texto y un botón de envío -->
+    <form id="miFormulario"> <!--Normalmente con action se enviaria a una pagina, no es el caso-->
+        <input type="text" id="textoUsuario" placeholder="Ingresa algo" required>
+        <button type="button" onclick="mostrarTexto()">Enviar</button> <!--Normalmente sería de tipo submit-->
+    </form>
+
+    <!-- Aquí se mostrará el texto ingresado -->
+    <div id="resultado"></div>
+</body>
+</html>
