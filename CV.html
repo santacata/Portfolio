@@ -5,13 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Rubén Santacatalina's Resume</title>
 	<style>
-		body {
-			font-family: 'Segoe UI', sans-serif;
-			background: #f4f4f4;
-			margin: 0;
-			padding: 0;
-			color: #333;
-		}
 		header {
 			background-color: #222;
 			color: white;
@@ -46,7 +39,7 @@
 			text-decoration: none;
 		}
 		a:hover {
-			text-decoration: underline;
+			text-shadow: 2px 2px 5px #0078D4;
 		}
 		body {
 			font-family: 'Segoe UI', sans-serif;
@@ -82,7 +75,6 @@
 		<h2>Personal Information</h2>
 		<ul>
 			<li>📍 L'Olleria, Spain</li>
-			<li>📧 rubensantacatalinapellicer@gmail.com</li>
 			<li>📞 +34 654 872 940</li>
 			<li>🎂 27 years old (June 19)</li>
 		</ul>
@@ -91,7 +83,7 @@
 	<section class="section">
 		<h2>Education</h2>
 		<ul>
-			<li>🎓 Higher National Diploma in Multiplatform Application Development (DAM)</li>
+			<li>🎓 Higher National Diploma in Multiplatform Application Development (LOMLOE Renovation)</li>
 			<li>🎥 Higher National Diploma in Audiovisual Project Production (LOE)</li>
 		</ul>
 	</section>
@@ -119,22 +111,33 @@
 		<h2>Contact</h2>
 		<p>Interested in collaborating with me? Let’s get in touch!</p>
 		<p>
-			<a href="mailto:rubensantacatalinapellicer@gmail.com">Send me an email</a>
+			<a href="mailto:rubensantacatalinapellicer@gmail.com">📬 Send me an email</a>
 		</p>
 		<p>
-			<a href="https://github.com/santacata/Portfolio">See my portfolio</a>
+			<a href="https://github.com/santacata"> 💻 Browse my Github</a>
+		</p>
+		<p>
+			<a href="https://github.com/santacata/Portfolio">🎓 See my portfolio</a>
+		</p>
+		<p>
+			<a href="tel:+34654872940">📞 Call me</a>
 		</p>
 	</section>
 
 	<script>
 		// Scroll animation: reveal sections with class 'section'
-		const observer = new IntersectionObserver(entries => {
-			entries.forEach(entry => {
-				if (entry.isIntersecting) {
-					entry.target.classList.add('visible');
-				}
-			});
-		});
+		var observer = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		if (entry.isIntersecting) {
+			entry.target.classList.add('visible');
+		} else {
+			entry.target.classList.remove('visible');
+		}
+	});
+}, {
+	threshold: 0.3
+});
+
 
 		document.querySelectorAll('.section').forEach(section => {
 			observer.observe(section);
