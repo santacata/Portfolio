@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Rubén Santacatalina's Resume</title>
+	<style>
+		body {
+			font-family: 'Segoe UI', sans-serif;
+			background: #f4f4f4;
+			margin: 0;
+			padding: 0;
+			color: #333;
+		}
+		header {
+			background-color: #222;
+			color: white;
+			padding: 2rem;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 2.5rem;
+		}
+		.section {
+			opacity: 0;
+			transform: translateY(30px);
+			transition: all 0.6s ease-out;
+			padding: 2rem;
+			max-width: 900px;
+			margin: auto;
+			background-color: white;
+			margin-top: 2rem;
+			border-radius: 10px;
+			box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+		}
+		.visible {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		ul {
+			padding-left: 1.5rem;
+		}
+		a {
+			color: #0078D4;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		body {
+			font-family: 'Segoe UI', sans-serif;
+			margin: 0;
+			padding: 0;
+			color: #333;
+			background: 
+				repeating-linear-gradient(
+					45deg,
+					#f4f4f4,
+					#f4f4f4 20px,
+					#f4f4f5 20px,
+					#e0e0e0 40px
+				);
+			background-size: 200% 200%;
+			animation: moveBackground 20s linear infinite;
+		}
+
+		@keyframes moveBackground {
+			0% { background-position: 100% 0%; } }
+			100% { background-position: 100% 100%; }
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+		<h1>Rubén Santacatalina Pellicer</h1>
+		<p>Multiplatform Developer | Creative Audiovisual Artist</p>
+	</header>
+
+	<section class="section">
+		<h2>Personal Information</h2>
+		<ul>
+			<li>📍 L'Olleria, Spain</li>
+			<li>📧 rubensantacatalinapellicer@gmail.com</li>
+			<li>📞 +34 654 872 940</li>
+			<li>🎂 27 years old (June 19)</li>
+		</ul>
+	</section>
+
+	<section class="section">
+		<h2>Education</h2>
+		<ul>
+			<li>🎓 Higher National Diploma in Multiplatform Application Development (DAM)</li>
+			<li>🎥 Higher National Diploma in Audiovisual Project Production (LOE)</li>
+		</ul>
+	</section>
+
+	<section class="section">
+		<h2>Experience</h2>
+		<ul>
+			<li>🎥 TotMúsica2 (Canals) – One month after finishing the audiovisual diploma</li>
+			<li>📍 Teatro Cine Goya (Olleria) – Two months of paid internship through Diputebeca</li>
+			<li>🖥️ Town Hall (Olleria) – One month mandatory internship during the DAM studies</li>
+		</ul>
+	</section>
+
+	<section class="section">
+		<h2>Skills</h2>
+		<ul>
+			<li>🧠 C1 language proficiency (CEFR)</li>
+			<li>🎨 Full mastery of the Adobe Suite</li>
+			<li>🖥️ Strong cross-platform programming expertise (Windows & Linux)</li>
+			</li>
+		</ul>
+	</section>
+
+	<section class="section">
+		<h2>Contact</h2>
+		<p>Interested in collaborating with me? Let’s get in touch!</p>
+		<p>
+			<a href="mailto:rubensantacatalinapellicer@gmail.com">Send me an email</a>
+		</p>
+		<p>
+			<a href="https://github.com/santacata/Portfolio">See my portfolio</a>
+		</p>
+	</section>
+
+	<script>
+		// Scroll animation: reveal sections with class 'section'
+		const observer = new IntersectionObserver(entries => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					entry.target.classList.add('visible');
+				}
+			});
+		});
+
+		document.querySelectorAll('.section').forEach(section => {
+			observer.observe(section);
+		});
+	</script>
+</body>
+</html>
