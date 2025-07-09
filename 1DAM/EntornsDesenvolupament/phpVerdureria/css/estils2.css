@@ -1,0 +1,239 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #ff00e6;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header #platan{
+    position: absolute;
+    top: 5px;
+    left: 65%;
+}
+
+
+header #poma{
+    position: absolute;
+    top: 5px;
+    left:30%;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a { /*Mostra les propietats als links de dins de les llistes del nav*/
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+
+header h3{
+    border-radius: 10px;
+    background-color: #db0eff;
+    border:1px solid black;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
+
+h2 {
+    color: #ff00e6;
+}
+
+nav ul li a:hover { /*Mostra les propietats als links de dins de les llistes del nav quan passes per damunt*/
+    color: #facfff;
+}
+.formulari {
+    display:flex;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.radio label {
+    white-space: nowrap; /* Asegura que el texto no se rompa */
+}
+
+.checkbox label {
+    white-space: nowrap; /* Asegura que el texto no se rompa */
+}
+form .buttons {
+    display: flex; /* Alinear los botones en línea */
+    justify-content: space-between; /* Espaciado uniforme entre ellos */
+}
+
+form input[type="submit"], form input[type="reset"] {
+    flex: 1; /* Distribuir espai equitativament */
+    margin:10px;
+    padding: 0.75rem;
+    font-weight: bold;
+    border: none; /*Elimina el borde per defecte*/
+    color: white; /*Color del texto*/
+    cursor: pointer; /*Mostra al usuari que pot fer click*/
+}
+
+form input[type="submit"] {
+    background-color: #ff00e6; /* Color del botón de enviar */
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+
+form input[type="submit"]:hover {
+    background-color: #9500b3;
+    border-radius: 10px;
+}
+
+#fruites{
+    display: flex; /* Alinear en línea */
+    align-items: center; /* Centra verticalmente el checkbox con el texto */
+    gap: 0.5rem; /* Espacio entre el checkbox y el texto */
+    justify-content: flex-start; /* Alinea a la izquierda */
+}
+
+#data{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#estils {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.login{
+    background-color: rgb(255, 132, 245);
+    border-radius: 10px;
+    border:1px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    gap: 1rem;
+}
+
+input[type="range"] {
+    appearance: none;
+    background-color: lightpink;
+    border-radius: 15px;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    flex: 1; /* Distribuir espai equitativament */
+    padding: 0.75rem;
+    font-weight: bold;
+    border: none; /*Elimina el borde per defecte*/
+    color: white; /*Color del text*/
+    cursor: pointer; /*Mostra al usuari que pot fer click*/
+}
+
+
+input[type="range"]::-webkit-slider-thumb { /*Per a chrome i safari (i edge nou)*/
+
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 0, 217); /* Color del thumb */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+form input[type="reset"] {
+    background-color: #6c757d; /* Color del botó de borrar */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+header img{
+    height: 55px;
+    width: 55px;
+}
+
+#productes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo de cada producto */
+.producte {
+    width: 30%; /* Cada producto ocupará un 30% del espacio del contenedor */
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #ff8bff;
+    border-radius: 10px;
+    border: 7px solid rgb(255, 0, 234);
+}
+
+/* Limitar el tamaño de la imagen */
+.producte img {
+    width: 100%;
+    width: 150px; /* Controlamos el tamaño máximo de la imagen */
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Títulos y descripción */
+.producte h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.infocarret {
+    position: absolute;    
+    right: 10px;
+    width: 250px;
+    top: 50%;
+    padding: 1em;
+    border-radius: 15px;
+    background-color: #b371a9;
+    border: 1px solid #a40687;
+    color: black; /*Ací queda millor en negre*/
+}
+
+.apartatSeleccionat{
+    padding: 5px;
+    background-color: rgb(172, 68, 150); 
+    font-size: large; 
+    display: inline;
+    border-radius: 5px;
+}

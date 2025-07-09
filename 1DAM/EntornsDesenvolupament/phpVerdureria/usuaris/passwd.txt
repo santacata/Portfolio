@@ -1,0 +1,7 @@
+admin:admin@dam.com:$2b$12$L6d53ulEnJYYaaH/mFdSIebWPwcQmGCak22YtHFfM4PpJvYFmEHBO
+jaume:jaume@simarro.org:$2b$12$BjVQlWL9E9TDgjygxN0fnu1PptNxMg6B8KbY/Qoc5Vcly7Myio28.
+paula:paula@simarro.org:$2b$12$/M.Nq3LOxauVfjvh5aeu7eb/BUOQtodsPraugAjUqr9BY8cSfOZ0O
+Ruben:rubensantacatalinapellicer@gmail.com:$2b$12$iu0wKE0sV7GikS5jka05MeMEJfdOIpo65aHheMHdC4z.XEBSX85gG
+Ruben:ruben_olle@hotmail.es:$2b$12$yuqosJLJN2SApkLdxyU9tO55kUHVTdGdeEBIGISYLRwxEV5LOeula
+Ruben:updatemailota@gmail.com:$2b$12$1iYKudLKWzmifo/wSwM0L.n6/TEOtRocccMjco7uBAYsFN7UBfu8W
+Alex:alexivarslandete@gmail.com:$2b$12$gDep9QyZOk5aNcS4aR2kIe7IDNrlew3AA1HuViKvgz8OayAjWdrEy
