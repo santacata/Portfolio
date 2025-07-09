@@ -1,0 +1,41 @@
+/*Estilo general*/
+body{
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+/*Contenedor general*/
+.container{
+    width: 60%;
+    margin:50px auto;
+    background-color: green;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px black;
+    padding: 10px;
+}
+h1{
+    color: rgb(47, 184, 60);
+    text-shadow: 
+    0 0 40px rgb(10, 71, 7),
+    0 0 40px rgb(10, 71, 7),
+    0 0 40px rgb(10, 71, 7),
+    0 0 40px rgb(10, 71, 7);
+
+}
+button{
+    background-color: rgb(6, 39, 5);
+    color: white;
+    border-radius: 10px;
+}
+ul, li{
+    text-decoration: none;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+#estadisticas{
+    display: "none";
+}
