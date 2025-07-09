@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="clinica vetproject1" version="4">
+  <OBJECT>
+    <ID name="clinica vetproject1" mc="Standard.Package" uid="8975b549-ca95-40e4-be8e-d1cc562c6a40"/>
+    <PID name="Clinica vetProject1" mc="Standard.Project" uid="7ee7c83a-3654-4598-9c93-8b0d31aa6d3c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[clinica vetproject1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Clinica Veterinaria" mc="Standard.Class" uid="4f4b40e1-df43-4b32-b210-59841bdb2ef0"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="d1f32502-76bb-4333-ab48-9f86ce5e51b3"/>
+        <COMPID name="Animal" mc="Standard.Class" uid="d5e15227-c0f6-49f3-b190-4f57bad86bb8"/>
+        <COMPID name="Familia" mc="Standard.Class" uid="fd23599b-8bca-468b-b226-83bb75cc5cfe"/>
+        <COMPID name="HistorialAnimal" mc="Standard.Class" uid="0716f1a3-4c58-4050-aca6-ff2e3042e993"/>
+        <COMPID name="Vacuna" mc="Standard.Class" uid="e8b54c72-5999-438c-a9b2-530b20b43a1b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="clinica vetproject1 Class diagram" mc="Standard.ClassDiagram" uid="aa1f4778-db8d-459c-8d1e-d43635e0883d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
