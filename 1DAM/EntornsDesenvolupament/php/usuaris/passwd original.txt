@@ -1,0 +1,11 @@
+admin:admin@dam.com:administrador
+david:davidsala@simarro.org:123456
+marta:martasoler@simarro.org: 123456
+raül:r.vallsaranda@edu.gva.es:123456
+jaume:jaume@simarro.org:123456
+paula:paula@simarro.org:123456
+marta:marta@simarro.org: 123456
+Ruben:rubensantacatalinapellicer@gmail.com:1234567
+Ruben:ruben_olle@hotmail.es:12345678
+Ruben:updatemailota@gmail.com:1234
+Alex:alexivarslandete@gmail.com:123
