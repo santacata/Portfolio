@@ -1,0 +1,55 @@
+<!--Actividad 1: Simulador de Teclado Virtual
+Crear un teclado virtual que simule la escritura en un textarea mediante clics en botones o
+pulsaciones del teclado físico.
+1. Crea una interfaz con botones que representen las letras A-Z y un botón para el ESPACIO.
+2. Al hacer clic en un botón, la letra debe aparecer en un textarea.
+3. Si el usuario pulsa una tecla en su teclado físico, también debe reflejarse en el textarea.
+4. Si el usuario mantiene presionada la tecla Shift, las letras deben aparecer en mayúscula.
+5. Cuando el usuario suelte una tecla (onkeyup), el botón correspondiente debe volver a su
+color original -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado virtual</title>
+    <link id="stylesheet" rel="stylesheet" href="estilo1.css">
+</head>
+<body>
+    <button id="cambiarEstilo" onclick="cambiarEstilo()">Cambiar Estilo</button>
+    <div class="teclado">
+        <div class="botones">
+            <button  onclick="agregarletra('A')">A</button>
+            <button  onclick="agregarletra('B')">B</button>
+            <button  onclick="agregarletra('C')">C</button>
+            <button  onclick="agregarletra('D')">D</button>
+            <button  onclick="agregarletra('E')">E</button>
+            <button  onclick="agregarletra('F')">F</button>
+            <button  onclick="agregarletra('G')">G</button>
+            <button  onclick="agregarletra('H')">H</button>
+            <button  onclick="agregarletra('I')">I</button>
+            <button  onclick="agregarletra('J')">J</button>
+            <button  onclick="agregarletra('K')">K</button>
+            <button  onclick="agregarletra('L')">L</button>
+            <button  onclick="agregarletra('M')">M</button>
+            <button  onclick="agregarletra('N')">N</button>
+            <button  onclick="agregarletra('Ñ')">Ñ</button>
+            <button  onclick="agregarletra('O')">O</button>
+            <button  onclick="agregarletra('P')">P</button>
+            <button  onclick="agregarletra('Q')">Q</button>
+            <button  onclick="agregarletra('R')">R</button>
+            <button  onclick="agregarletra('S')">S</button>
+            <button  onclick="agregarletra('T')">T</button>
+            <button  onclick="agregarletra('U')">U</button>
+            <button  onclick="agregarletra('V')">V</button>
+            <button  onclick="agregarletra('W')">W</button>
+            <button  onclick="agregarletra('X')">X</button>
+            <button  onclick="agregarletra('Y')">Y</button>
+            <button  onclick="agregarletra('Z')">Z</button>   
+            <button onclick="agregarletra(' ')" style="height:20px; width:100px;"> </button>
+            <textarea id="textarea"></textarea>
+        </div>
+    </div>
+<script src="activitat1.js"></script>
+</body>
+</html>

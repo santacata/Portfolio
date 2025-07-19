@@ -1,0 +1,316 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header #platan{
+    position: absolute;
+    top: 5px;
+    left: 65%;
+}
+
+
+header #poma{
+    position: absolute;
+    top: 5px;
+    left:30%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a { /*Mostra les propietats als links de dins de les llistes del nav*/
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover { /*Mostra les propietats als links de dins de les llistes del nav quan passes per damunt*/
+    color: #00ff88;
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+table, td, th{
+    border:1px solid black; 
+    border-collapse: collapse;
+}
+
+header h3{
+    border-radius: 10px;
+    background-color: #FFD700;
+    border:1px solid black;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
+
+
+.formulari {
+    display:flex;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.radio label {
+    white-space: nowrap; /* Asegura que el texto no se rompa */
+}
+
+input[type="radio"] {
+    accent-color: #567bff; /* o el color que quieras */
+}
+
+.checkbox label {
+    white-space: nowrap; /* Asegura que el texto no se rompa */
+}
+form .buttons {
+    display: flex; /* Alinear los botones en línea */
+    justify-content: space-between; /* Espaciado uniforme entre ellos */
+}
+
+form input[type="submit"], form input[type="reset"] {
+    flex: 1; /* Distribuir espai equitativament */
+    margin:10px;
+    padding: 0.75rem;
+    font-weight: bold;
+    border: none; /*Elimina el borde per defecte*/
+    color: white; /*Color del texto*/
+    cursor: pointer; /*Mostra al usuari que pot fer click*/
+}
+
+.login{
+    background-color: rgb(132, 198, 255);
+    border-radius: 10px;
+    border:1px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    gap: 1rem;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF; /* Color del botó de enviar */
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1800b3;
+}
+
+form input[type="reset"] {
+    background-color: #6c757d; /* Color del botó de borrar */
+    border-radius: 10px;
+}
+
+input[type="range"] {
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  background: rgb(127, 127, 127);
+  border-radius: 5px;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  background-color: #0988ff;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#fruites{
+    display: flex; /* Alinear en línea */
+    align-items: center; /* Centra verticalmente el checkbox con el texto */
+    gap: 0.5rem; /* Espacio entre el checkbox y el texto */
+    justify-content: flex-start; /* Alinea a la izquierda */
+}
+/*Per a donar color a les paraules*/
+.normal {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.keyword {
+    background-color: #FFD700;
+    color: #333;
+}
+
+.long-word {
+    background-color: #000;
+    color: #fff;
+}
+.radio{
+    display: flex; /* Alinear en línea */
+    align-items: center; /* Centra verticalmente el checkbox con el texto */
+    gap: 0.5rem; /* Espacio entre el checkbox y el texto */
+    justify-content: flex-start; /* Alinea a la izquierda */
+}
+
+.inici{
+    position: fixed;
+}
+
+#data{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#estils {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+header img{
+    height: 55px;
+    width: 55px;
+}
+
+#productes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo de cada producto */
+.producte {
+    width: 30%; /* Cada producto ocupará un 30% del espacio del contenedor */
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #5a98df;
+    border-radius: 10px;
+    border: 7px solid rgb(76, 0, 255);
+}
+
+/* Limitar el tamaño de la imagen */
+.producte img {
+    width: 100%;
+    width: 150px; /* Controlamos el tamaño máximo de la imagen */
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Títulos y descripción */
+.producte h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.infocarret {
+    position: absolute;    
+    right: 10px;
+    width: 250px;
+    top: 50%;
+    padding: 1em;
+    border-radius: 15px;
+    background-color: #2a5299;
+    border: 1px solid #2d1746;
+    color:white; /*Per a millorar la llegibilitat*/
+}
+
+.apartatSeleccionat{
+    padding: 5px;
+    background-color: rgb(40, 76, 223); 
+    font-size: large; 
+    display: inline;
+    border-radius: 5px;
+}
+
+.log-eliminat{
+    background-color: #6b91a9; /* rojo claro */
+    color: rgb(0, 0, 0);
+}
+
+.log-login-correcto{
+    background-color: #65b66f; /* rojo claro */
+    color: rgb(0, 0, 0);
+}
+
+.log-registro-fallido{
+    background-color: #ffa5a5; /* rojo claro */
+    color: rgb(0, 0, 0);
+}
+
+.log-deslogin{
+    background-color: #7e815e; /* rojo claro */
+    color: rgb(0, 0, 0);
+}
+
+.log-coincidien{
+    background-color: #ff0000; /* rojo claro */
+    color: rgb(0, 0, 0);
+}
+
+.log-existia{
+    background-color: #00b7ff; /* rojo claro */
+    color: rgb(0, 0, 0);
+}
+
+.log-registrat{
+    background-color: #28d74b; /* rojo claro */
+    color: rgb(0, 0, 0);
+}

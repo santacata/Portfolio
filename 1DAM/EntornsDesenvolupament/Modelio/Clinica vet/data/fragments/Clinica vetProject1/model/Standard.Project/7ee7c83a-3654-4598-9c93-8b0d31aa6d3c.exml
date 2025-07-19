@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Clinica vetProject1" version="4">
+  <OBJECT>
+    <ID name="Clinica vetProject1" mc="Standard.Project" uid="7ee7c83a-3654-4598-9c93-8b0d31aa6d3c"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Clinica vetProject1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="clinica vetproject1" mc="Standard.Package" uid="8975b549-ca95-40e4-be8e-d1cc562c6a40"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Clinica vetProject1" mc="Infrastructure.DiagramSet" uid="26ed12dd-9e3f-43f5-ad61-8c068691880f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
